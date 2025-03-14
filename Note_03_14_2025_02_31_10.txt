@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Delight</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Liên kết đến file CSS -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Cafeteria Delight</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#menu">Thực đơn</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+                <li><a href="menu-detail.html">Chi tiết thực đơn</a></li> <!-- Liên kết tới trang khác -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Phần Trang chủ -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Chào mừng đến với Cafeteria Delight</h2>
+            <p>Những món ăn ngon miệng cho mọi khẩu vị!</p>
+            <a href="#menu" class="btn">Khám phá thực đơn của chúng tôi</a>
+        </div>
+    </section>
+
+    <!-- Phần Thực đơn -->
+    <section id="menu">
+        <h2>Thực đơn của chúng tôi</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Bánh mì kẹp thịt</h3>
+                <p>Thịt bò tươi ngon, rau xanh, cà chua, và sốt đặc biệt.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pizza</h3>
+                <p>Pizza phô mai với các loại topping bạn yêu thích.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Salad</h3>
+                <p>Salad rau tươi và các loại gia vị lành mạnh.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Cà phê</h3>
+                <p>Cà phê nóng giúp bạn tỉnh táo cả ngày.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phần Chi tiết thực đơn -->
+    <section id="menu-detail">
+        <h2>Chi tiết thực đơn</h2>
+        <div class="menu-item-detail">
+            <h3>Bánh mì kẹp thịt</h3>
+            <img src="https://via.placeholder.com/400x300" alt="Bánh mì kẹp thịt" class="menu-image">
+            <p>Bánh mì kẹp thịt đặc biệt của chúng tôi, làm từ thịt bò tươi ngon, rau xà lách, cà chua và sốt đặc trưng. Đây là món ăn được yêu thích nhất của chúng tôi!</p>
+            <p><strong>Giá:</strong> 8.99$</p>
+        </div>
+
+        <div class="menu-item-detail">
+            <h3>Pizza</h3>
+            <img src="https://via.placeholder.com/400x300" alt="Pizza" class="menu-image">
+            <p>Pizza phô mai với nhiều lựa chọn topping. Chọn topping yêu thích của bạn và thưởng thức ngay!</p>
+            <p><strong>Giá:</strong> 12.99$</p>
+        </div>
+
+        <div class="menu-item-detail">
+            <h3>Salad</h3>
+            <img src="https://via.placeholder.com/400x300" alt="Salad" class="menu-image">
+            <p>Salad tươi ngon với các loại rau củ và gia vị tùy chọn. Món ăn lành mạnh và bổ dưỡng!</p>
+            <p><strong>Giá:</strong> 6.99$</p>
+        </div>
+
+        <div class="menu-item-detail">
+            <h3>Cà phê</h3>
+            <img src="https://via.placeholder.com/400x300" alt="Cà phê" class="menu-image">
+            <p>Cà phê nóng, mới pha, mang lại năng lượng cho cả ngày dài của bạn.</p>
+            <p><strong>Giá:</strong> 2.99$</p>
+        </div>
+    </section>
+
+    <!-- Phần Giới thiệu -->
+    <section id="about">
+        <h2>Giới thiệu về chúng tôi</h2>
+        <p>Tại Cafeteria Delight, chúng tôi cung cấp các món ăn tươi ngon và đa dạng, phục vụ mọi nhu cầu của khách hàng. Đội ngũ của chúng tôi luôn mong muốn mang đến một không gian ấm cúng và dịch vụ tuyệt vời. Hãy đến và thưởng thức các món ăn ngon miệng tại Cafeteria Delight!</p>
+    </section>
+
+    <!-- Phần Liên hệ -->
+    <footer id="contact">
+        <h3>Liên hệ với chúng tôi</h3>
+        <p>Email: contact@cafedelight.com</p>
+        <p>Điện thoại: 123-456-7890</p>
+        <p>Địa chỉ: 123 Đường Ẩm Thực, Thành Phố Của Bạn</p>
+    </footer>
+</body>
+</html>
